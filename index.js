@@ -23,7 +23,7 @@ const corsOptions = {
 app.use((req, res, next) => {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "http://localhost:5173/"
+    "http://localhost:5173"
   );
   res.header(
     "Access-Control-Allow-Headers",
